@@ -1,6 +1,7 @@
 
 import './App.css'
 import Formu from './components/Form'
+import List from './components/List'
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
       <Formu />
     </div>
     <div className="col-md-8">
-      <h2 className='text-center'>Lista de clientes</h2>
+      <h2 className='text-center mt-5 mb-4'>Lista de clientes</h2>
+      <List />
     </div>
     </div>
    </div>
